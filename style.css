@@ -49,8 +49,8 @@ section figure img{
 	max-width: 100%;
 }
 
-section figure figcaption{
-
+article figure figcaption{
+	background-color: white;
 }
 
 article img{
