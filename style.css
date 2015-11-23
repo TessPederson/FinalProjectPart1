@@ -1,10 +1,48 @@
 /* style.css */
 
 /* Globals */
+
 html {
   box-sizing: border-box;
+  margin: 0 10%;
+background-image: url("images/wood_background.jpg");
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+body {
+  background-color: #1a0d00;
 }
+
+*{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+	text-decoration: none;
+}
+
+article, section, header, footer {
+	background-color: white;
+}
+
+article header {
+	border-top: 3px solid #DDDDDD;
+	border-bottom: 3px solid #DDDDDD;
+}
+
+article header h2{
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+article header a{
+	color: #A48B48;
+	text-decoration: none;
+}
+
+section figure img{
+	max-width: 100%;
+}
+	
+
