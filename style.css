@@ -18,8 +18,12 @@ body {
   padding: 0;
 }
 
-li{
-	text-decoration: none;
+a{
+	text-decoration: none; 
+}
+
+li {
+	list-style: none;
 }
 
 article, section, header, footer {
@@ -44,5 +48,31 @@ article header a{
 section figure img{
 	max-width: 100%;
 }
-	
 
+section figure figcaption{
+
+}
+
+article img{
+	display: block;
+	max-width: 100%;
+}
+
+article figure:nth-child(3) {
+	width: 50%;
+	float: left;
+}
+	
+article figure:nth-child(4) {
+	width: 50%;
+	float: left;
+}
+
+article figure:nth-child(5) {
+	width: 50%;
+	float: left;
+}
+
+section {
+	clear: both;
+}
